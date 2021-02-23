@@ -6,8 +6,10 @@
 
 body{
     background-color:rgb(246, 248, 249);
-    font-family: 'Reggae One', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
+
+/* grandezza e font del titolo e grandezza del logo */
 header{
     height: 70px;
     line-height: 70px;
@@ -31,6 +33,7 @@ header{
     font-size: 50px;
 }
 
+/* Caratteristiche deli button */
 .button{
     padding-left: 50px;
     padding-top: 20px;
@@ -49,6 +52,7 @@ header{
     border-radius: 5px;
     display: inline-block;
     height: 30px;
+    width: 100px;
     
 }
 
@@ -57,8 +61,10 @@ header{
     border-radius: 5px;
     display: inline-block;
     height: 30px;
+    width: 100px;
 }
 
+/* Caratteristiche della lista */
 .list{
     max-width: 1000px;
     margin: auto;
@@ -71,7 +77,59 @@ header{
     border-bottom-right-radius: 10px;
 }
 
+
 ul {
     list-style: none;
 }
+
+li{
+    margin-top: 10px;
+}
+
+
+span /* Da dimensione forma e definisce il carattere e il colore del testo dei badge*/{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:30px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+/* colore dei badge */
+.blu{
+    background-color : rgb(71, 173, 241);
     
+}
+
+.viola{
+    background-color: rgb(156, 114, 228);
+}
+
+.verde{
+    background-color:rgb(100, 192, 169)
+}
+
+.arancio{
+    background-color: rgb(242, 158, 51);
+}
+
+.rosa{
+    background-color: rgb(216, 99 , 161);
+}
+
+.sale{
+    background-color: rgb(176, 201, 38);
+}
+
+/* dimensione firma autore */
+footer{
+    margin: auto;
+    max-width: 1000px;
+    height: 50px;
+    margin-top: 100px;
+}
