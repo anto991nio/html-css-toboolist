@@ -6,6 +6,7 @@
 
 body{
     background-color:rgb(246, 248, 249);
+    font-family: 'Reggae One', cursive;
 }
 header{
     height: 70px;
@@ -26,6 +27,8 @@ header{
     display: inline-block;
     margin: 0;
     vertical-align: middle;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
 }
 
 .button{
@@ -60,10 +63,15 @@ header{
     max-width: 1000px;
     margin: auto;
     padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: white;
     margin-top: 2px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-    
 
+ul {
+    list-style: none;
+}
+    
